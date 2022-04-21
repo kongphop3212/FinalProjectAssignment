@@ -21,7 +21,6 @@ classDiagram
   -Exit()void
   }
   class CheckList{
-  selectedRow:int
   -Add():void
   -Save As():void
   -Exit():void
