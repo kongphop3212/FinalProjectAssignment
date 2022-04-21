@@ -11,6 +11,7 @@ classDiagram
   Form2 <|--Form1
   CheckList <|--Form2
   Room <|--Form2
+  direction LR
   class Form1{
   -Login()
   }
@@ -21,9 +22,9 @@ classDiagram
   }
   class CheckList{
   selectedRow:int
-  -Add
-  -Save As
-  -Exit
+  -Add():void
+  -Save As():void
+  -Exit():void
   +id() : string
   +titlename() : string
   +name() : string
@@ -34,9 +35,9 @@ classDiagram
   }
   Class Room{
   selectedRow:int
-  -Add
-  -Save As
-  -Exit
+  -Add():void
+  -Save As():void
+  -Exit():void
   +A1():void
   +A2():void
   +A3():void
