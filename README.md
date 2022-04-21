@@ -32,7 +32,7 @@ classDiagram
   +time() : string
   +inout() : string
   }
-  Class Room{
+  class Room{
   -Add():void
   -Save As():void
   -Exit():void
