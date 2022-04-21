@@ -30,10 +30,10 @@ namespace FinalProjectAssignment
             this.Hide();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void buttonRoom_Click(object sender, EventArgs e)
         {
-            GPA gpa = new GPA();
-            gpa.Show();
+            Room room = new Room();
+            room.Show();
             this.Hide();
         }
     }
