@@ -37,15 +37,15 @@ classDiagram
   -Add
   -Save As
   -Exit
-  +A1()void
-  +A2()void
-  +A3()void
-  +A4()void
-  +A5()void
-  +A6()void
-  +A7()void
-  +A8()void
-  +A9()void
+  +A1():void
+  +A2():void
+  +A3():void
+  +A4():void
+  +A5():void
+  +A6():void
+  +A7():void
+  +A8():void
+  +A9():void
   }
 ```
 
