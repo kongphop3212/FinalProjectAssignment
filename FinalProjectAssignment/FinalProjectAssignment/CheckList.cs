@@ -55,14 +55,14 @@ namespace FinalProjectAssignment
                 }
             }
         }
-        private void addRow(string id, string titlename, string name, string surname, string date, string time, string inout)
+        /*private void addRow(string id, string titlename, string name, string surname, string date, string time, string inout)
         {
             String[] row = { id, titlename, name, surname, date, time, inout };
             dataGridView1.Rows.Add(row);
-        }
+        }*/
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            addRow(textId.Text, comboBoxTitleName.Text, textName.Text, textSurname.Text, dateTimeDate.Text, dateTimeTime.Text, comboBoxInandOut.Text);
+            dataGridView1.Rows.Add(textId.Text, comboBoxTitleName.Text, textName.Text, textSurname.Text, dateTimeDate.Text, dateTimeTime.Text, comboBoxInandOut.Text);
         }
 
         private void buttonExit_Click(object sender, EventArgs e)

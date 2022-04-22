@@ -10,9 +10,6 @@
     <Compile Update="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="GPA.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Room.cs">
       <SubType>Form</SubType>
     </Compile>

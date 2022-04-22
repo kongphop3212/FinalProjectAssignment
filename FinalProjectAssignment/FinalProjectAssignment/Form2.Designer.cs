@@ -74,7 +74,7 @@
             this.buttonRoom.TabIndex = 1;
             this.buttonRoom.Text = "จองห้องเรียน";
             this.buttonRoom.UseVisualStyleBackColor = false;
-            this.buttonRoom.Click += new System.EventHandler(this.button2_Click);
+            this.buttonRoom.Click += new System.EventHandler(this.buttonRoom_Click);
             // 
             // buttonChecklist
             // 
